@@ -57,3 +57,4 @@ python capstone.py
 - The application runs in a loop until the user chooses to exit.
 
 ## License
+This `README.md` provides an overview of your application, including its features, installation instructions, and usage.
