@@ -55,3 +55,5 @@ python capstone.py
 - Usernames and passwords must be between 6 and 12 characters. Passwords must be alphanumeric.
 - Employee IDs must be unique and greater than or equal to 1001.
 - The application runs in a loop until the user chooses to exit.
+
+## License
