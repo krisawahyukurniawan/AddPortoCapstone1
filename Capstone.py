@@ -4,7 +4,12 @@ from tabulate import tabulate
 
 # User and employees database
 user_database = [{'username':'Krisa1','password': 'Krisa123'}] # List to store user credentials
-employees_database = [{"ID": 1000, "First Name" : "Krisa", "Last Name" : "Wahyu", "Position" : "Student", "Department" : "Data Science", "Salary" : 500, "Startworking" : date(2024,10,28),"Status": "Active"}] # List to store employee data
+employees_database = [
+                      {"ID": 996, "First Name": "John", "Last Name": "Doe", "Position": "Analyst", "Department": "Marketing", "Salary": 700, "Startworking": date(2022, 3, 10), "Status": "Active"},
+                      {"ID": 997, "First Name": "Jane", "Last Name": "Smith", "Position": "Manager", "Department": "Sales", "Salary": 1200, "Startworking": date(2021, 8, 22), "Status": "Inactive"},
+                      {"ID": 998, "First Name": "Emily", "Last Name": "Davis", "Position": "Designer", "Department": "Creative", "Salary": 900, "Startworking": date(2023, 1, 5), "Status": "Active"},
+                      {"ID": 999, "First Name": "Michael", "Last Name": "Brown", "Position": "Developer", "Department": "IT", "Salary": 1100, "Startworking": date(2020, 11, 30), "Status": "Active"},
+                      {"ID": 1000, "First Name" : "Krisa", "Last Name" : "Wahyu", "Position" : "Student", "Department" : "Data Science", "Salary" : 500, "Startworking" : date(2024,10,28),"Status": "Active"}] # List to store employee data
 
 def show_welcome(): 
     # Display the welcome message and prompt the user to sign up or sign-in
